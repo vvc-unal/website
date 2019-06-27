@@ -23,7 +23,7 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 
 **CL 53 X CRA 60 910-911**
 
-{% youtube Sgiw3Q5gw9M %}
+{% youtube Bw3GUPoz7tg %}
 
 **CRA 7 X CL 45 955-959**
 
