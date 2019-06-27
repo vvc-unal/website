@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-06-09 22:00:00 -0500
+date:   2019-06-26 21:00:00 -0500
 categories: docs dev
 ---
 
@@ -18,6 +18,21 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 ![FPS](/assets/img/fps.png)
 
 ## Videos
+
+### Tiny YOLO
+
+**CL 53 X CRA 60 910-911**
+
+{% youtube Sgiw3Q5gw9M %}
+
+**CRA 7 X CL 45 955-959**
+
+{% youtube qXporB3VfEs %}
+
+**CL 26 X CRA 33 600-610**
+
+{% youtube _RhFN6suBhI %}
+
 
 ### YOLOv3
 
