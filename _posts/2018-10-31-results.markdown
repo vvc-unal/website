@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-06-26 21:00:00 -0500
+date:   2019-07-18 22:00:00 -0500
 categories: docs dev
 ---
 
@@ -16,6 +16,16 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 ![Average frame time](/assets/img/avg_time.png)
 
 ![FPS](/assets/img/fps.png)
+
+### Custom models based on YOLOv3
+
+![vvc models](/assets/img/TensorBoard val_loss.png)
+
+[vvc1](/assets/img/architecture_vvc1.png)
+
+[vvc2](/assets/img/architecture_vvc2.png)
+
+[vvc3](/assets/img/architecture_vvc3.png)
 
 ## Videos
 
