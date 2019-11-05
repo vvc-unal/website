@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-07-18 22:00:00 -0500
+date:   2019-11-04 22:00:00 -0500
 categories: docs dev
 ---
 
@@ -27,6 +27,23 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 
 [vvc3](/assets/img/architecture_vvc3.png)
 
+
+## Tracking metrics
+
+| CL 53 X CRA 60 910-911  | IDF1 |  IDP |   IDR |  Rcll | Prcn |   GT |   MT |   PT |   ML |    FP |   FN |  IDs |   FM |     MOTA | MOTP |
+|-------------------------|-----:|-----:|------:|------:|-----:|-----:|-----:|-----:|-----:|------:|-----:|-----:|-----:|---------:|-----:|
+| frcnn-resnet50          | 0.9% | 0.5% |  5.2% |  9.6% | 0.9% |    6 |    0 |    2 |    4 |  9320 |  763 |    6 |    5 | -1095.4% |  301 |
+| frcnn-resnet50-transfer | 0.0% | 0.0% |  0.0% |  0.0% | 0.0% |    6 |    0 |    0 |    6 |  **1503** |  844 |    0 |    0 |  **-178.1%** |  nan |
+| YOLOv3                  | 2.2% | **1.2%** | **32.1%** | **47.7%** | 1.7% |    6 |    0 |    6 |    0 | 23023 |  441 |   16 |   15 | -2682.0% |  265 |
+| YOLOv3-transfer         | 0.0% | 0.0% |  0.0% |  0.0% | 0.0% |    6 |    0 |    0 |    6 |  4483 |  844 |    0 |    0 |  -531.2% |  nan |
+| yolo3-prunned           | 0.0% | 0.0% |  0.0% |  0.0% | 0.0% |    6 |    0 |    0 |    6 |  1518 |  844 |    0 |    0 |  -179.9% |  nan |
+| YOLOv3-tiny             | 1.0% | 0.5% |  6.5% | 11.0% | 0.9% |    6 |    0 |    1 |    5 | 10148 |  751 |    6 |   11 | **-1192.1%** |  329 |
+| YOLOv3-tiny-transfer    | nan% | nan% |  nan% |  nan% | nan% | None | None | None | None |  None | None | None | None |     nan% |  nan |
+| vvc1-yolov3             | nan% | nan% |  nan% |  nan% | nan% | None | None | None | None |  None | None | None | None |     nan% |  nan |
+| vvc2-yolov3             | nan% | nan% |  nan% |  nan% | nan% | None | None | None | None |  None | None | None | None |     nan% |  nan |
+| vvc3-yolov3             | nan% | nan% |  nan% |  nan% | nan% | None | None | None | None |  None | None | None | None |     nan% |  nan |
+| RetinaNet-ResNet50      | **2.3%** | **1.2%** | 26.8% | 40.8% | **1.8%** |    6 |    0 |    5 |    1 | 18741 |  **500** |    8 |    7 | -2180.7% |  193 |
+
 ## Videos
 
 ### Tiny YOLO
@@ -42,9 +59,6 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 **CL 26 X CRA 33 600-610**
 
 {% youtube _RhFN6suBhI %}
-
-
-### YOLOv3
 
 **CL 53 X CRA 60 910-911**
 
