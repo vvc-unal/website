@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-11-18 21:00:00 -0500
+date:   2019-12-09 22:00:00 -0500
 categories: docs dev
 ---
 
@@ -17,6 +17,8 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 
 ![FPS](/assets/img/fps.png)
 
+
+
 ### Custom models based on YOLOv3
 
 ![vvc models](/assets/img/TensorBoard val_loss.png)
@@ -28,7 +30,9 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 [vvc3](/assets/img/architecture_vvc3.png)
 
 
-## Tracking metrics
+## Tracking
+
+![MOTA](/assets/img/avg_fps.png)
 
 | Detector                | Tracker    | IDF1  | IDP   | IDR  | Rcll  | Prcn  | GT | MT | PT | ML | FP  | FN   | IDs | FM | MOTA   | MOTP |
 |-------------------------|------------|-------|-------|------|-------|-------|----|----|----|----|-----|------|-----|----|--------|------|
@@ -44,7 +48,9 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 | vvc3-yolov3             | PatientIOU | 0,2%  | 16,7% | 0,1% | 0,1%  | 16,7% | 15 | 0  | 0  | 15 | 5   | 1037 | 0   | 0  | -0,4%  | 306  |
 | RetinaNet-ResNet50      | PatientIOU | 10,8% | 23,1% | 7,0% | 12,3% | 40,5% | 15 | 1  | 4  | 10 | 188 | 910  | 15  | 13 | -7,2%  | 339  |
 
+
 ## Videos
+
 
 ### RetinaNet
 
