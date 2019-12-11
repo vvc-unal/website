@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-12-09 22:00:00 -0500
+date:   2019-12-10 21:00:00 -0500
 categories: docs dev
 ---
 
@@ -32,7 +32,7 @@ Compare YOLOv3 and Faster R-CNN with retraining.
 
 ## Tracking
 
-![MOTA](/assets/img/avg_fps.png)
+![MOTA](/assets/img/mota_vs_fps.png)
 
 | Detector                | Tracker    | IDF1  | IDP   | IDR  | Rcll  | Prcn  | GT | MT | PT | ML | FP  | FN   | IDs | FM | MOTA   | MOTP |
 |-------------------------|------------|-------|-------|------|-------|-------|----|----|----|----|-----|------|-----|----|--------|------|
